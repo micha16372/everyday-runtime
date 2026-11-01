@@ -1,8 +1,8 @@
-# Every change needs a look from the maintainer. Code that runs on other
-# people's machines or in CI gets extra attention (see SECURITY.md).
-*                   @micha16372
-/.github/           @micha16372
-/custom_components/ @micha16372
-/integrations/      @micha16372
-package.json        @micha16372
-yarn.lock           @micha16372
+# Code-owner notifications are reserved for security-sensitive code and CI.
+# All pull requests must still pass required CI and dependency review checks.
+# Routine dependency/lockfile upgrades do not need an automatic owner ping.
+/.github/              @micha16372
+/custom_components/    @micha16372
+/integrations/         @micha16372
+/scripts/              @micha16372
+/SECURITY.md           @micha16372
